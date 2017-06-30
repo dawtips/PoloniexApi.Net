@@ -1,7 +1,21 @@
-# Project Discontinued
+### Orignal Project Discontinued
 Please be aware that this project is not actively maintained anymore.
 
-Edits made
+# Edits made for use with my other projects
+All issues have been fixed
+Get balances work
+422 / Nonce error now has catch block
+
+# Problems with the 422 error in other forks
+This now have a httpwebresponse catch block
+The 422 error is actually the nonce error
+This is caused by async methods not returning fast enough, giving an incorrect nonce.
+
+# Poloniex Auto Trader
+https://github.com/ColossusFX/PoloniexAutoTrader
+
+# Poloniex Trading Dashboard
+https://github.com/ColossusFX/PoloniexTradingDashboard
 
 # Poloniex API .NET [![Build status](https://ci.appveyor.com/api/projects/status/dnp9i3t6sexv9tpa?svg=true)](https://ci.appveyor.com/project/kripod/poloniexapi-net)
 This project makes your Microsoft .NET applications able to interact with the Application Programming Interface (API) of [Poloniex][].
