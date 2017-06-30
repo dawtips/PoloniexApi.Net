@@ -7,7 +7,7 @@ Get balances work
 422 / Nonce error now has catch block
 
 # Problems with the 422 error in other forks
-This now have a httpwebresponse catch block
+This now has a httpwebresponse catch block
 The 422 error is actually the nonce error
 This is caused by async methods not returning fast enough, giving an incorrect nonce.
 
